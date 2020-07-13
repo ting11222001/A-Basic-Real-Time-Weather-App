@@ -16,3 +16,7 @@ I'm using Python3 in VS code.
 * Find the nearest weather station by calculating the distance of each weather station and my current location.
 * Use render_template function to pass data to a designed html structure.
 * Display the result on browser.
+
+## Notes for files
+* weather_final_main.py: for flask web app
+* weather.html: for display 
