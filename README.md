@@ -19,4 +19,4 @@ I'm using Python3 in VS code.
 
 ## Notes for files
 * weather_final_main.py: for flask web app
-* weather.html: for display 
+* weather.html: to display on browser
