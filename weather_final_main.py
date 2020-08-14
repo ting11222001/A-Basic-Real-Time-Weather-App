@@ -23,10 +23,10 @@ api = Api(app)
 # We then use the route() decorator to tell Flask what URL should trigger our function.
 @app.route('/', methods = ['get'])
 def index():
-    # Insert government's 中央氣象局 API URL & my API key.
+    # Insert government's API URL & parameters.
     url = 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization={}&format={}&elementName={}&parameterName={}'
     # insert arguments according to its API document.
-    auth_arg = 'CWB-D8D8ED46-F9A0-4E90-92CA-112E792E76FB'
+    auth_arg = 'Your API key'
     format_arg = 'JSON'
     ele_arg = 'TEMP,HUMD,24R'
     para_arg = 'CITY,TOWN'
